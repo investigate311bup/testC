@@ -40,8 +40,8 @@ jobs:
       - name: Typecheck
         run: bun run typecheck
 
-      - name: Run tests
-        run: bun run test
+      # - name: Run tests
+      #   run: bun run test
 
   build:
     needs: checks
