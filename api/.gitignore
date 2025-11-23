@@ -1,0 +1,41 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dist/
+dist-ssr/
+
+# Environment files
+*.local
+*.env
+*.env.*.local
+
+# Compiled TypeScript
+*.js
+*.js.map
+
+# Output of tsc
+out/
+build/
+tmp/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Misc
+coverage/
