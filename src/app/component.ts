@@ -14,15 +14,14 @@ export class AppComponent {
   be = ''
 
   constructor() {
-    this.test(1)
+    this.test()
   }
 
-  test(x: number) {
+  test() {
     fetch(`${API}/api/hello`)
       .then(r => r.json())
       .then(r => {
         this.be = r.message;
       });
-
   }
 }
