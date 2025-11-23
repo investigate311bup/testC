@@ -1,4 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
+const API = import.meta.env.VITE_API_BASE_URL;
 
 @Component({
   selector: 'app',
@@ -13,15 +14,14 @@ export class AppComponent {
   be = ''
 
   constructor() {
-    this.test(1)
+    this.test()
   }
 
-  test(x: number) {
-    fetch('/api/hello')
+  test() {
+    fetch(`${API}/api/hello`)
       .then(r => r.json())
       .then(r => {
         this.be = r.message;
       });
-    return x;
   }
 }
