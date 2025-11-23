@@ -43,7 +43,6 @@ jobs:
       - name: Run tests
         run: bun run test
 
-
   build:
     needs: checks
     runs-on: ubuntu-latest
