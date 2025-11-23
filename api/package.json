@@ -1,0 +1,29 @@
+{
+  "name": "r",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon -q src/main.ts",
+    "build": "tsup",
+    "build:serve": "node dist/main.js"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "cors": "^2.8.5",
+    "express": "5.1.0",
+    "multer": "2.0.2",
+    "pg": "8.16.3",
+    "uuid": "13.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.3",
+    "@types/multer": "^2.0.0",
+    "@types/node": "24.5.2",
+    "@types/pg": "8.15.5",
+    "colors": "1.4.0",
+    "nodemon": "3.1.10",
+    "ts-node": "10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "5.9.2"
+  }
+}
