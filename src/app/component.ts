@@ -9,7 +9,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 })
 export class AppComponent {
 
-  title = 'app workas2';
+  title = 'app works';
 
   constructor() {
     this.test(1)
