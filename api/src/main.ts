@@ -15,7 +15,7 @@ app.use('/uploads', express.static(path.join(process.cwd(), 'uploads')));
 // Example API route
 app.get('/api/hello', (_, res) => {
   res.json({
-    message: 'BE',
+    message: 'BE TEST',
     time: new Date().toISOString()
   });
 });
